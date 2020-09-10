@@ -1,2 +1,3 @@
-# docker-grpcwebproxy
-Docker Image for grpcwebproxy
+# grpcwebproxy Docker Image
+
+Docker Image with grpcwebproxy for local development of grpcweb applications.
