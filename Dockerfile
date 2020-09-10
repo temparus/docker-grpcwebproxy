@@ -36,6 +36,9 @@ WORKDIR /
 
 COPY --from=build /go/bin/grpcwebproxy /usr/bin/grpcwebproxy
 
+COPY ./etc/localhost.crt /etc/localhost.crt
+COPY ./etc/localhost.key /etc/localhost.key
+
 RUN chmod +x /usr/bin/grpcwebproxy
 
 EXPOSE 8080 8443
